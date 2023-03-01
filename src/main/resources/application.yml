@@ -1,0 +1,3 @@
+logging:
+  pattern:
+    level: "%5p [TRACE_ID: %X{traceId:-}] [SPAN_ID: %X{spanId:-}]"
